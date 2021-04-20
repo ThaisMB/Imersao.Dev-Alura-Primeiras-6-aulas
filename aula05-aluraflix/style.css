@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+h1{
+    display:flex;
+    height: 30px;
+    width: 100%;
+    color:white;
+    font-size: 4em;
+    flex-wrap:wrap;
+    justify-content: center;
+    margin: 100px;
+  
+}
+
+.filme{
+    height: 60px;
+    width: 200px;
+    font-size: 1.2em;
+    
+}
+
+.botao-adiciona{
+    background-color: red;
+    color:white;
+    border-radius: 8px;
+    height: 70px;
+    width: 80px;
+   
+}
+
+.div-filmes{
+    display:flex;
+    width: 96%;
+    margin: auto;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    
+}
+
+img{
+    border: 3px solid red;
+    border-radius: 6px;
+    margin: 2.6%;
+}
