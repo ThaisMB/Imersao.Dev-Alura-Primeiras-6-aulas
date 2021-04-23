@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("./bola.png");
+    background-size: 100%;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28px;
+    
+
+}
+
+input {
+    display: block;
+    width: 100px;
+    height: 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+button {
+    margin: 20px auto;
+    width: 175px;
+    height: 50px;
+    font-size: 22px;
+    border-radius: 10px;
+    color: antiquewhite;
+    background-color: #2D2378
+    ;
+    border: 3px double rgb(231, 227, 238);
+}
+
+#jogo {
+    text-align: center;
+}
+
+#resultado {
+    background-color: #2d328a;
+    font-size: 28px;
+    padding:10px;
+    border: 0.2px solid antiquewhite;
+    overflow: auto;
+}
+
+#resultado p{
+    margin:0;
+}
